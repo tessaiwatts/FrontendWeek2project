@@ -576,7 +576,6 @@ STEPS TO  GET STARTED
   font-weight: 900;
   max-width: 100%;
   color: #243e63;
-
 }
 
 .step__number {
@@ -1046,7 +1045,6 @@ GET STARTED
   display: flex;
   align-items: center;
   max-width: 100%;
-  
 }
 
 .get__started__two {
@@ -1073,7 +1071,7 @@ GET STARTED
   font-weight: 700;
   color: #f7fafc;
   background-color: #f56565;
-  margin:0 32px;
+  margin: 0 32px;
   padding: 20px 40px;
   border-radius: 50px;
   transition: all 300ms ease;
@@ -1208,9 +1206,6 @@ FOOTER
   font-weight: 500;
 }
 
-
-
-
 /* FOR TABLETS AND LAPTOPS */
 
 @media (max-width: 1024px) {
@@ -1222,36 +1217,35 @@ FOOTER
     display: block;
   }
 
- .feature__sub-heading{
+  .feature__sub-heading {
     font-size: 16px;
- }
+  }
 
-
-/*
+  /*
 
 LANDING
 
 */
 
-.header__row{
+  .header__row {
     flex-direction: column;
-}
-.header__container{
+  }
+  .header__container {
     margin: 48px 0 0;
-}
-.header__description{
+  }
+  .header__description {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-}
+  }
 
-.header__title{
+  .header__title {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-}
+  }
 
-.header__para{
+  .header__para {
     text-align: center;
     font-size: 16px;
     max-width: 512px;
@@ -1259,154 +1253,170 @@ LANDING
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-}
+  }
 
-.header__input{
+  .header__input {
     margin: 0 auto;
-}
+  }
 
-.header__customers{
+  .header__customers {
     text-align: center;
-}
+  }
 
-.header__customer--img{
+  .header__customer--img {
     width: 100%;
     max-width: 512px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-}
+  }
 
-.header__img--wrapper{
+  .header__img--wrapper {
     width: 100%;
     max-width: 512px;
     vertical-align: middle;
     margin-top: 64px;
-}
+  }
 
-.header__img{
+  .header__img {
     width: 100%;
-}
+  }
 
-/*
+  /*
 
 FEATURES
 
 */
 
-.feature__description{
+  .feature__description {
     font-size: 16px;
-}
+  }
 
-/*
+  /*
 
 QUALITY WORK
 
 */
 
-.quality__left{
+  .quality__left {
     width: 50%;
-}
+  }
 
-.quality__right{
+  .quality__right {
     width: 50%;
     display: flex;
     align-items: center;
-}
+  }
 
-.quality__heading{
+  .quality__heading {
     font-size: 36px;
-}
+  }
 
-.quality__para{
+  .quality__para {
     font-size: 16px;
-}
+  }
 
-/*
+  /*
 
 STEPS
 
 */
 
-.steps__sub-heading{
+  .steps__sub-heading {
     font-size: 16px;
-}
+  }
 
-.steps__heading{
+  .steps__heading {
     font-size: 36px;
-}
+  }
 
-.step__para{
+  .step__para {
     font-size: 14px;
-}
+  }
 
-.steps__left{
+  .steps__left {
     width: 50%;
-}
+  }
 
-.steps__right{
+  .steps__right {
     width: 50%;
-}
+  }
 
-/*
+  /*
 
 VALUES
 
 */
 
-.values__two-boxes{
+  .values__two-boxes {
     flex-direction: column;
-}
+  }
 
-.professionalism{
+  .professionalism {
     margin: 0;
     margin-top: 40px;
-}
+  }
 
-/*
+  /*
 
 PRICES
 
 */
 
-.three__plan--container{
+  .three__plan--container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.plan{
+  .plan {
     margin: 64px 0 0 0;
     width: 100%;
     min-width: 384px;
-}
+  }
 
-.plan--middle{
+  .plan--middle {
     margin: 64px 0 0 0;
     width: 100%;
     min-width: 384px;
-}
+  }
 
-/*
+  /*
 
 CONTACT US
 
 */
 
-.get__started__two{
+  .get__started__two {
     flex-direction: column;
-}
+    margin: 0px;
+  }
 
-.get__started--links{
+  .get__started--links {
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
-}
+    width: 100%;
+  }
 
-.get__started--text{
+  .get__started--left {
+    margin: 0px;
+    margin-left: 8px;
+    padding: 15px 30px;
+  }
+
+  .get__started--right {
+    margin: 0px;
+    margin-right: 8px;
+    padding: 15px 30px;
+  }
+
+  .get__started--text {
     text-align: center;
     margin: 0 auto;
-}
+    width: 100%;
+    font-size: 26px;
+  }
 }
 
 /*
@@ -1416,166 +1426,165 @@ FOR SMALL SCREENS
 */
 
 @media (max-width: 768px) {
-
-    /*
+  /*
 
     FEATURES
 
     */
 
-    .features{
-        padding: 0;
-    }
+  .features {
+    padding: 0;
+  }
 
-    /*
+  /*
 
     QUALITY
 
     */
 
-    .quality__wrapper{
-        flex-direction: column-reverse;
-        padding: 80px 0;
-    }
+  .quality__wrapper {
+    flex-direction: column-reverse;
+    padding: 80px 0;
+  }
 
-    .quality__right{
-        width: 100%;
-        max-width: 448px;
-        margin: 0 auto;
-    }
+  .quality__right {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+  }
 
-    .quality__left{
-        width: 100%;
-        max-width: 448px;
-        margin: 32px 90px 0 90px;
-        text-align: center;
-    }
+  .quality__left {
+    width: 100%;
+    max-width: 448px;
+    margin: 32px 90px 0 90px;
+    text-align: center;
+  }
 
-    .quality__left--box{
-        padding: 0;
-    }
-    /*
+  .quality__left--box {
+    padding: 0;
+  }
+  /*
 
     steps
 
     */
 
-    
+  .steps__wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 0;
+  }
 
-    .steps__wrapper{
-        flex-direction: column;
-        text-align: center;
-        padding: 80px 0;
-    }
+  .steps__left {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 448px;
+  }
 
-    .steps__left{
-        margin: 0 auto;
-        width: 100%;
-        max-width: 448px;
-    }
+  .steps__right {
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 448px;
+  }
 
-    .steps__right{
-        margin: 0 auto;
-        margin-top: 32px;
-        width: 100%;
-        max-width: 448px;
-    }
+  .step {
+    flex-direction: column;
+  }
 
-    .step{
-        flex-direction: column;
-    }
+  .step__info {
+    margin: 0;
+    margin-top: 12px;
+  }
 
-    .step__info{
-        margin: 0;
-        margin-top: 12px;
-    }
-
-    /*
+  /*
 
     VALUES
 
     */
 
-    .values__wrapper{
-        flex-direction: column-reverse;
-        text-align: center;
-        padding: 80px 0;
-    }
+  .values__wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 80px 0;
+  }
 
-    .values__left{
-        margin: 0 auto;
-        width: 100%;
-        max-width: 488px;
-        margin-top: 32px;
-    }
+  .values__left {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 488px;
+    margin-top: 32px;
+  }
 
-    .value__right{
-        width: 100%;
-        max-width: 488px;
-        margin: 0 auto;
-    }
+  .value__right {
+    width: 100%;
+    max-width: 488px;
+    margin: 0 auto;
+  }
 
-    .professionalism, .affordable{
-        margin: 0 auto;
-        margin-top: 40px;
-        max-width: 320px;
-    }
+  .professionalism,
+  .affordable {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 320px;
+  }
 
-    .affordable__heading, .professionalism__heading{
-        display: flex;
-        justify-content: center;
-    }
+  .affordable__heading,
+  .professionalism__heading {
+    display: flex;
+    justify-content: center;
+  }
 
-    /*
+  /*
 
     PRICING
 
     */
 
-    .pricing__wrapper{
-        padding: 80px 0;
-    }
+  .pricing__wrapper {
+    padding: 80px 0;
+  }
 
-    /*
+  /*
 
     TESTIMONY
 
     */
 
-    .testimonial__two--box{
-        flex-direction: column;
-    }
+  .testimonial__two--box {
+    flex-direction: column;
+  }
 
-    .testimony__img{
-        width: 100%;
-        max-width: 448px;
-        margin: 0 auto;
-    }
+  .testimony__img {
+    width: 100%;
+    max-width: 448px;
+    margin: 0 auto;
+  }
 
-    .testimonials__right{
-        padding: 0;
-        margin-top: 32px;
-        width: 100%;
-        max-width: 448px;
-        text-align: center;
-    }
+  .testimonials__right {
+    padding: 0;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 448px;
+    text-align: center;
+  }
 
-    /*
+  /*
 
     FOOTER
 
     */
 
-    .five__columns{
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .five__columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .three__column{
-        flex-direction: column;
-    }
+  .three__column {
+    flex-direction: column;
+  }
 
-    .footer__para{
-        margin: 24px 0;
-    }
+  .footer__para {
+    margin: 24px 0;
+  }
 }
